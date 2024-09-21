@@ -45,7 +45,7 @@ button:hover {
 }
 
 table {
-    width: 60%;
+    width: 100%;
     /* margin-top: 3px; */
     border-collapse: collapse;
     text-align: center;
@@ -54,15 +54,15 @@ table {
 
 th {
     padding: 4px;
-    border: 2px solid #060507;
-    font-size: 20px;
+    border: 2px solid #e8e3ec;
+    font-size: 15px;
     color: #030303;
 }
 
 td {
     padding: 4px;
-    border: 2px solid #030303;
-    font-size: 17px;
+    border: 2px solid #f1ecec;
+    font-size: 13px;
 }
 
 /* Oculta elementos inicialmente */
