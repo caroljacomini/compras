@@ -54,14 +54,14 @@ table {
 
 th {
     padding: 4px;
-    border: 2px solid #e8e3ec;
+    /*border: 2px solid #e8e3ec;*/
     font-size: 15px;
     color: #030303;
 }
 
 td {
     padding: 4px;
-    border: 2px solid #f1ecec;
+    /*border: 2px solid #f1ecec;*/
     font-size: 13px;
 }
 
