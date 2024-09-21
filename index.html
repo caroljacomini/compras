@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos às compras?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Vamos às compras?</h1>
+
+        <!-- Formulário para inserir o nome e o valor do produto -->
+        <div class="formulario">
+            <input type="text" id="produto" placeholder="Escreva o nome do produto" />
+            <input type="number" id="valor" placeholder="Valor do produto (R$)" />
+        </div>
+
+        <!-- botão para inserir produto -->
+        <button id="adicionar">Inserir Produto</button>
+
+        <!-- Botão para visualizar a tabela -->
+        <button id="visualizarTabela">Visualizar Produtos</button>
+
+        <!-- Tabela que será gerada dinamicamente -->
+        <table id="tabelaProdutos" class="oculto">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Valor (R$)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- As linhas de produtos serão inseridas aqui -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td style="text-align: right;"> Total:</td>
+                    <td id="total" style="text-align: left;">R$ 0,00</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
